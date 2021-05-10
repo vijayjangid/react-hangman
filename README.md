@@ -1,5 +1,5 @@
  #  ![hangman-game](https://user-images.githubusercontent.com/11829883/117690634-b012b380-b1d8-11eb-8db1-268afd1e6dee.png) Hangman (for programmers)
- #### Using ReactJS (hooks and context api), CSS3, SVG and skeuomorphic design
+ #### Using ReactJS (hooks and context api), CSS3, SVG and neumorphic design
  
 
 
@@ -15,7 +15,7 @@
      - Database
 
 - Keyboard support
-- Skeuomorphic design (experimental)
+- Neumorphic design (experimental)
 - SVG manipulation for Hangman graphic
 
 ### Preview
