@@ -27,7 +27,6 @@
 
   - Node: [http://nodejs.org/](http://nodejs.org/)
   - ReactJS: [https://reactjs.org](https://reactjs.org)
-  - Bootstrap: [https://getbootstrap.com](https://getbootstrap.com)
 
 If you'd like to contribute, help me close issues.
 
