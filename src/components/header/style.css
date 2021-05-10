@@ -1,0 +1,39 @@
+.header * {
+  color: inherit;
+}
+.header nav {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header nav .logo {
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+.header nav .logo img {
+  height: 48px;
+  object-fit: contain;
+}
+.header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+.header nav ul li {
+  background: none;
+  margin: 0 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.header nav ul li label {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+/* 
+.header select,
+.header option {
+  text-transform: uppercase;
+} */

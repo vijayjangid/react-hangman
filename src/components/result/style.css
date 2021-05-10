@@ -1,0 +1,12 @@
+.result {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.result.error {
+  color: var(--error-color);
+}
+
+.result.success {
+  color: var(--success-color);
+}

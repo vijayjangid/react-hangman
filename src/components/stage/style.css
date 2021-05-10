@@ -1,0 +1,14 @@
+.stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.stage label {
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+.stage svg {
+  fill: none;
+  stroke: var(--text-color);
+}

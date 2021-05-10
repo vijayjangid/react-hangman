@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  padding: 1rem;
+  color: var(--text-color);
+  background: var(--background);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  justify-content: center;
+  font-style: italic;
+  font-size: 0.7em;
+}
+
+.footer a {
+  margin: 0 0.5rem;
+}

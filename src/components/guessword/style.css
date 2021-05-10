@@ -1,0 +1,10 @@
+.guessword {
+  display: flex;
+  margin: 2rem 0;
+}
+.guess-letter {
+  padding: 0.5rem 1rem;
+  margin: 0 0.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
