@@ -16,6 +16,52 @@ originally forked from [vetrivelcsamy's repo](https://github.com/vetrivelcsamy/r
 - Neumorphic design (experimental)
 - SVG manipulation for Hangman graphic
 
+### Folder structure
+```
+src
+├── App.js
+├── components
+│   ├── footer
+│   │   ├── index.js
+│   │   └── style.css
+│   ├── guessword
+│   │   ├── index.js
+│   │   └── style.css
+│   ├── header
+│   │   ├── index.js
+│   │   └── style.css
+│   ├── index.js        <--- exports all the components from here
+│   ├── keyboard
+│   │   ├── index.js
+│   │   └── style.css
+│   ├── keyboard-button
+│   │   ├── index.js
+│   │   └── style.css
+│   ├── result
+│   │   ├── index.js
+│   │   └── style.css
+│   ├── stage
+│   │   ├── index.js
+│   │   └── style.css
+│   └── theme-toggle
+│       ├── index.js
+│       └── style.css
+├── constants
+│   └── index.js
+├── containers
+│   ├── hangman.js     <--- main container that use context and also hosts other components
+│   └── style.css
+├── hooks
+│   ├── index.js
+│   ├── use-theme-hook.js       <--- react hook for exposing theme (dark mode) context
+│   └── use-word-source-hook.js <--- react hook for exposing word source & guess word context
+├── index.css
+├── index.js
+└── state
+    ├── theme-context.js        <--- Theme context (to manage dark mode)
+    └── wordsource-context.js.  <--- Wordsource & guessword
+```
+
  ### Dependencies
 
   - Node: [http://nodejs.org/](http://nodejs.org/)
