@@ -1,10 +1,11 @@
 /*custom css*/
+/*another neumorphics design https://codepen.io/ryanparag/pen/OJVJrxZ */
 
 :root {
   --error-color: #f94144;
   --success-color: #2a9d8f;
-  --text-color: #212529;
-  --link-active-color: #e95c7c;
+  --text-color: #879fbe;
+  --link-active-color: #4299e1;
   --gradient-start-color: #bd4a8e;
   --gradient-end-color: #e95c7c;
   --gradient: linear-gradient(
@@ -20,8 +21,8 @@
 
 /* dark theme */
 .dark {
-  --text-color: #fff;
-  --link-active-color: #e95c7c;
+  --text-color: #b4bfce;
+  /* --link-active-color: #e95c7c; */
   --gradient-start-color: #bd4a8e;
   --gradient-end-color: #e95c7c;
   --background: #222;
