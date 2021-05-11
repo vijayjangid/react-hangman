@@ -1,7 +1,7 @@
 import "./style.css";
 function GuessLetter({ letter, rightGuesses }) {
   return (
-    <span className={`guess-letter skeuo invert disabled`}>
+    <span className={`guess-letter neumorph invert disabled`}>
       {rightGuesses.includes(letter) ? letter : "-"}
     </span>
   );

@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="header">
       <nav>
-        <a href="/" className="logo skeuo">
+        <a href="/" className="logo neumorph">
           <img src="images/logo.svg" alt="Hangman logo" />
           <div>
             <h1>Hangman</h1>
@@ -27,7 +27,7 @@ export default function Header() {
             <label htmlFor="wordsource">Word source:</label>
             <select
               id="wordsource"
-              className="skeuo"
+              className="neumorph"
               type="text"
               placeholder="Choose a word source"
               value={wordsource}
@@ -39,7 +39,7 @@ export default function Header() {
             </select>
           </li>
           <li>
-            <span role="button" className="skeuo">
+            <span role="button" className="neumorph">
               <ThemeToggle />
             </span>
           </li>

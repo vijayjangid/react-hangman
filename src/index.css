@@ -13,8 +13,8 @@
     var(--gradient-end-color)
   );
   --background: #e9ecef;
-  --skeuo-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px #fff;
-  --skeuo-shadow-inset: inset 4px 4px 8px rgba(0, 0, 0, 0.2),
+  --neumorph-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px #fff;
+  --neumorph-shadow-inset: inset 4px 4px 8px rgba(0, 0, 0, 0.2),
     inset -4px -4px 8px #fff;
 }
 
@@ -25,11 +25,11 @@
   --gradient-start-color: #bd4a8e;
   --gradient-end-color: #e95c7c;
   --background: #222;
-  --skeuo-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8),
+  --neumorph-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8),
     -4px -4px 8px 0 rgba(255, 255, 255, 0.1);
-  --skeuo-shadow-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.8),
+  --neumorph-shadow-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.8),
     inset -4px -4px 8px 0 rgba(255, 255, 255, 0.1);
-  --skeuo-text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+  --neumorph-text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
 }
 .app {
   min-height: 100vh;
@@ -59,26 +59,26 @@ select {
   outline: 0;
 }
 
-.skeuo {
+.neumorph {
   background: transparent;
   color: var(--text-color);
   border: none;
   border-radius: 12px;
-  box-shadow: var(--skeuo-shadow);
+  box-shadow: var(--neumorph-shadow);
   transition: color box-shadow 100ms ease-in;
 }
-.skeuo.invert {
-  box-shadow: var(--skeuo-shadow-inset);
+.neumorph.invert {
+  box-shadow: var(--neumorph-shadow-inset);
 }
-.skeuo:not(.disabled):hover {
+.neumorph:not(.disabled):hover {
   color: var(--link-active-color);
 }
 
-.skeuo:not(.disabled):active {
-  box-shadow: var(--skeuo-shadow-inset);
+.neumorph:not(.disabled):active {
+  box-shadow: var(--neumorph-shadow-inset);
 }
-.skeuo.invert:not(.disabled):active {
-  box-shadow: var(--skeuo-shadow);
+.neumorph.invert:not(.disabled):active {
+  box-shadow: var(--neumorph-shadow);
 }
 
 .container {

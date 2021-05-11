@@ -1,7 +1,7 @@
 import "./style.css";
 export default function Footer() {
   return (
-    <div className="footer skeuo disabled">
+    <div className="footer neumorph disabled">
       <div>
         Github:{" "}
         <a

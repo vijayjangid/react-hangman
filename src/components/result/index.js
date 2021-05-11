@@ -13,7 +13,7 @@ export default function Result({ result, guessword }) {
   }
 
   return (
-    <div className={`skeuo invert disabled result ${resultClass}`}>
+    <div className={`neumorph invert disabled result ${resultClass}`}>
       {resultText}
     </div>
   );
