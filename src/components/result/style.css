@@ -4,9 +4,9 @@
   font-weight: bold;
 }
 .result.error {
-  color: var(--error-color);
+  color: var(--error-color) !important;
 }
 
 .result.success {
-  color: var(--success-color);
+  color: var(--success-color) !important;
 }

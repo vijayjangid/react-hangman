@@ -14,9 +14,22 @@
     var(--gradient-end-color)
   );
   --background: #e9ecef;
-  --neumorph-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px #fff;
+  --highlight: #ffffff;
+  --shadow: #cbd2d8;
+  /* --neumorph-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px #fff;
   --neumorph-shadow-inset: inset 4px 4px 8px rgba(0, 0, 0, 0.2),
-    inset -4px -4px 8px #fff;
+    inset -4px -4px 8px #fff; */
+
+  --neumorph-shadow: 4px 4px 8px var(--shadow), -4px -4px 8px var(--highlight),
+    -2px -2px 4px var(--highlight);
+
+  --neumorph-shadow-inset: inset 4px 4px 8px var(--shadow),
+    inset -4px -4px 8px var(--highlight), inset -4px -4px 4px var(--shadow),
+    inset -2px -2px 2px var(--highlight), -2px -2px 6px var(--highlight),
+    -2px -2px 8px var(--shadow), 2px 2px 2px var(--highlight),
+    4px 4px 8px var(--shadow);
+
+  --neumorph-hover-bg: #eff2f5;
 }
 
 /* dark theme */
@@ -26,11 +39,22 @@
   --gradient-start-color: #bd4a8e;
   --gradient-end-color: #e95c7c;
   --background: #222;
-  --neumorph-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8),
+  --highlight: rgb(53, 52, 52);
+  --shadow: rgb(19, 19, 19);
+  /* --neumorph-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8),
     -4px -4px 8px 0 rgba(255, 255, 255, 0.1);
   --neumorph-shadow-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.8),
     inset -4px -4px 8px 0 rgba(255, 255, 255, 0.1);
-  --neumorph-text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+  --neumorph-text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5); */
+  --neumorph-shadow: 4px 4px 8px var(--shadow), -4px -4px 8px var(--highlight),
+    -2px -2px 4px var(--highlight);
+
+  --neumorph-shadow-inset: inset 4px 4px 8px var(--shadow),
+    inset -4px -4px 8px var(--highlight), inset -4px -4px 4px var(--shadow),
+    inset -2px -2px 2px var(--highlight), -2px -2px 6px var(--highlight),
+    -2px -2px 8px var(--shadow), 2px 2px 2px var(--highlight),
+    4px 4px 8px var(--shadow);
+  --neumorph-hover-bg: rgb(41, 40, 40);
 }
 .app {
   min-height: 100vh;
@@ -66,13 +90,17 @@ select {
   border: none;
   border-radius: 12px;
   box-shadow: var(--neumorph-shadow);
-  transition: color box-shadow 100ms ease-in;
+  transition: color background-color box-shadow 100ms ease-in;
+}
+.neumorph.disabled {
+  color: var(--link-active-color);
 }
 .neumorph.invert {
   box-shadow: var(--neumorph-shadow-inset);
 }
 .neumorph:not(.disabled):hover {
-  color: var(--link-active-color);
+  /* color: var(--link-active-color); */
+  background: var(--neumorph-hover-bg);
 }
 
 .neumorph:not(.disabled):active {
