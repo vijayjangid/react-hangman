@@ -19,9 +19,9 @@
 - SVG manipulation for Hangman graphic
 
 ### Preview
-<img width="1678" alt="Screenshot 2021-05-10 at 9 26 12 PM" src="https://user-images.githubusercontent.com/11829883/117690135-24008c00-b1d8-11eb-9845-d64512a506e3.png">
+<img width="860" alt="Screenshot 2021-05-11 at 9 39 32 AM" src="https://user-images.githubusercontent.com/11829883/117757004-da965800-b23c-11eb-9911-d53b2b972c20.png">
+<img width="860" alt="Screenshot 2021-05-11 at 9 39 47 AM" src="https://user-images.githubusercontent.com/11829883/117757013-dec27580-b23c-11eb-96e0-ea29b9e89a97.png">
 
-<img width="1677" alt="Screenshot 2021-05-10 at 9 26 20 PM" src="https://user-images.githubusercontent.com/11829883/117690142-26fb7c80-b1d8-11eb-9fba-27158e1f482a.png">
   
  ### Dependencies
 
